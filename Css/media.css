@@ -1,0 +1,43 @@
+@media screen and (max-width: 1208px){
+
+    header{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+    }    
+
+    ul{
+        text-align: center;
+    } 
+
+    img{
+        width: 580px;
+        border-radius: 20px;
+        margin-left: 80px;
+        background-position: top;
+    }
+
+    #newsletter{
+        font-size: 18px
+    }
+} 
+
+@media screen and (max-width: 930px){
+    img{
+        width: 580px;
+        border-radius: 20px;
+        margin-left: 80px;
+        background-position: top;
+    }
+}

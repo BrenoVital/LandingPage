@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background: url(../Assets/Images/lee-1.png) fixed no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    color: red;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+ul a:hover{
+    color: red;
+    transition: 0.3s all;
+    border-bottom: 1px solid white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 10px;
+}
+
+span{
+    color: red;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img{
+    width: 620px;
+    border-radius: 20px;
+    margin-left: 80px;
+    background-position: top;
+}
+
+#newsletter{
+    font-size: 36px;
+    font-weight: 100;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#leesin{
+    align-self: center;
+}
+
+#historia{
+    background-color: rgb(49, 48, 48);
+    width: 700px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#hability-Q{
+    width: 60px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 100%;
+}
